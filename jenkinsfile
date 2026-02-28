@@ -5,7 +5,7 @@ pipeline {
         GIT_URL    = 'https://github.com/Shravyajs25/DevOps-Assignment.git'
         GIT_BRANCH = 'main'
     }
-
+    
     stages {
 
         stage('Checkout Code') {
